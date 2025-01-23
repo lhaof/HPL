@@ -22,9 +22,11 @@ Analysis of efficiency-performance trade-off (subfigures (a) and (b)) and sensit
 
 ## Training and Evaluation
 Train: The dataset can be fetal or knee, the loss function can change according to the train_3d.py file
+
 ``python3 train_3d.py --model_name 'mtnet' --dataset 'knee' --loss_func 'bab'``
 
 Evaluation: eval_flag 's' for segmentation and 'l' for landmark detection
+
 ``eval_3d.py --model_name 'mtnet' --model_path PATH_OF_CHECKPOINT --eval_flag 's'``
 
 ## Dataset and Pre-trained Models
