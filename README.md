@@ -27,7 +27,7 @@ Train: The dataset can be fetal or knee, the loss function can change according 
 
 Evaluation: eval_flag 's' for segmentation and 'l' for landmark detection
 
-``eval_3d.py --model_name 'mtnet' --model_path PATH_OF_CHECKPOINT --eval_flag 's'``
+``python3 eval_3d.py --model_name 'mtnet' --model_path PATH_OF_CHECKPOINT --eval_flag 's'``
 
 ## Dataset and Pre-trained Models
 The data will be made available after acceptance.
