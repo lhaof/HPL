@@ -20,8 +20,15 @@ A schematic representation of our proposed BaBLoss. Subfigure (a) indicates that
 ![Results](img/results.png)
 Analysis of efficiency-performance trade-off (subfigures (a) and (b)) and sensitivity (subfigures (c) and (d)). Methods closer to the upper left perform better in the two subfigures on the left. In the right two subfigures, the sensitivity analysis of the BaBLoss method is conducted by varying the hyper-parameter n in Eq. 11.
 
+## Training and Evaluation
+Train: The dataset can be fetal or knee, the loss function can change according to the train_3d.py file
+``python3 train_3d.py --model_name 'mtnet' --dataset 'knee' --loss_func 'bab'``
+
+Evaluation: eval_flag 's' for segmentation and 'l' for landmark detection
+``eval_3d.py --model_name 'mtnet' --model_path PATH_OF_CHECKPOINT --eval_flag 's'``
+
 ## Dataset and Pre-trained Models
-The data will be made available after acceptance
+The data will be made available after acceptance.
 
 The trained models are available at [Baidu Drive](https://pan.baidu.com/s/1U4ohCzTkSVv4My5mcxUrJg) with extract code: `i800`.
 
