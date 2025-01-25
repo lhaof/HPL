@@ -30,9 +30,7 @@ Evaluation: eval_flag 's' for segmentation and 'l' for landmark detection
 ``python3 eval_3d.py --model_name 'mtnet' --model_path PATH_OF_CHECKPOINT --eval_flag 's'``
 
 ## Dataset and Pre-trained Models
-The data will be made available after acceptance.
-
-The trained models are available at [Baidu Drive](https://pan.baidu.com/s/1U4ohCzTkSVv4My5mcxUrJg) with extract code: `i800`.
+The data and pre-trained weights will be made available after acceptance.
 
 ## More information
 If you have any problem, no hesitate contact us at haifangong@outlook.com
