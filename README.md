@@ -34,3 +34,14 @@ The data and pre-trained weights will be made available after acceptance.
 
 ## More information
 If you have any problem, no hesitate contact us at haifangong@outlook.com
+
+## Citataion
+```
+@article{gong2025boundary,
+  title={Boundary as the Bridge: Towards Heterologous Partially-labeled Medical Image Segmentation and Landmark Detection},
+  author={Haifan Gong and Boyao Wan and Luoyao Kang and Xiang Wan and Lingyan Zhang and Haofeng Li},
+  journal={IEEE Trans. on Medical Imaging},
+  year={2025}
+}
+```
+
